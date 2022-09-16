@@ -1,0 +1,17 @@
+1.git init  初始化
+1.git add 文件名(*表示所有)  添加到
+2.git commit -m "简介"
+1.gti remote add name  name是远端仓库的名字  链接远端仓库
+3.gti remote add 任意名字1 github仓库地址
+4.git push 任意名字1 分支1  添加到分支1
+基本上就是这些了
+git pull origin master
+
+git add *
+git commit -m "new file"
+git remote add origin https://github.com/vgfdxm/RepositoryPlus.git
+git push origin master
+
+远端仓库不一致时用git pull --rebase origin master
+
+
